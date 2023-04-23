@@ -28,3 +28,6 @@ h1 {
   flex-wrap: wrap;
 }
 
+footer {
+  display: inline;
+}
