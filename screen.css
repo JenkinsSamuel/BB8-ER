@@ -28,6 +28,27 @@ h1 {
   flex-wrap: wrap;
 }
 
+#TopContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, tr, td {
+  background-color: #fc9c43;
+  color: black;
+  text-align: center;
+  border: 3px solid black;
+  
+}
+
 footer {
-  display: inline;
+  display: block;
+  text-align: center;
+  padding: 20px;
 }
