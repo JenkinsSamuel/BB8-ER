@@ -11,10 +11,7 @@ body {
   max-height: 120x;
 }
 
-main { 
-  padding: 5%;
-  justify-content: center;
-}
+
 
 h1 {
   text-align: center;
@@ -22,18 +19,23 @@ h1 {
   padding-top: 55px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 1000;
-  color: #fc9c43;
+  color: #FFFFFF;
 
 }
 
-
-#information {
-  display: flex;
+main { 
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 4%;
   justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  
 }
+
+.services{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
 
 #TopContainer {
   display: flex;
@@ -54,6 +56,16 @@ table, tr, td {
   padding: 3px;
   
 }
+
+#information {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 1%;
+  flex-wrap: wrap;
+  
+}
+
 
 footer {
   display: block;
