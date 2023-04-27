@@ -13,6 +13,7 @@ body {
 
 
 
+
 h1 {
   text-align: center;
   padding: 10px;
@@ -43,6 +44,11 @@ main {
   gap: 10px;
   flex-wrap: wrap;
 }
+
+a:link{
+  color: orange;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
